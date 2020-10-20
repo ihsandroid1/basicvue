@@ -1,15 +1,27 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Belajar Vue Hook</h1>
+  <Navbar/>
+  <Blogs/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar'
+import Blogs from './components/Blogs'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar,
+    Blogs
+  },
+  data() {
+    return {
+      title : 'Yuk Main Vue js'
+    }
+  },
+  methods : {
+
   }
 }
 </script>
