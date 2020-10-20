@@ -1,4 +1,4 @@
-# belajar_vue_hook
+# Belajar Vue JS Dasar (Babastudio)
 
 ## Project setup
 ```
